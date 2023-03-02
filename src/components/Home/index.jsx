@@ -2,6 +2,7 @@ import './index.scss';
 import Loader from'react-loaders';
 import AnimatedLetters from '../AnimatedLetters';
 import Carousel from './carousel';
+import {Link, NavLink} from 'react-router-dom';
 
 
 const Home = () => { 
@@ -9,15 +10,29 @@ const Home = () => {
         <div className="home-page">
             <div className="bac">
                 <h1> 
-                    <AnimatedLetters strArray={"Tiantian Sun".split('')} startIdx={1} />
+                    <AnimatedLetters strArray={"Hello, I'am Tiantian Sun".split('')} startIdx={1} />
                     <br />
-                    <AnimatedLetters strArray={"Front End web Developer".split('')} startIdx={16} />
+                    <AnimatedLetters strArray={"Front End Web Developer".split('')} startIdx={14} />
+                    
+                    
                 </h1>
-                <Loader type="line-scale" color="#fed002" width={500} />   
+                <Loader type="line-scale" color="#fed002" width={500} />  
 
-                <div className="caroBox">
+                <div className="learnmore">
+                    <a href=''>
+                    
+                    
+                    <NavLink exact='true' activeclassname="active" to="/about" className="about-link">
+                        <AnimatedLetters strArray={"Learn More".split('')} startIdx={30} />
+                    </NavLink>
+                    
+                    </a>
+
+                </div> 
+
+                {/* <div className="caroBox">
                     <Carousel />
-                </div>
+                </div> */}
 
             </div> 
         </div>

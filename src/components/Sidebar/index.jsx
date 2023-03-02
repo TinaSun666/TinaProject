@@ -23,17 +23,19 @@ const Sidebar=()=>{
                     <FontAwesomeIcon icon={faUser} color="#4d4d4d" />
                 </NavLink>
 
-                <NavLink exact='true' activeclassname="active" to="/contact" className="contact-link">
-                    <FontAwesomeIcon icon={faEnvelope} color="#4d4d4d" />
-                </NavLink>
-
                 <NavLink exact='true' activeclassname="active" to="/portfolio" className="portfolio-link">
                     <FontAwesomeIcon icon={faImage} color="#4d4d4d" />
                 </NavLink>
 
-                <NavLink exact='true' activeclassname="active" to="/dashboard" className="dashboard-link">
-                    <FontAwesomeIcon icon={faSignIn} color="#4d4d4d" />
+                <NavLink exact='true' activeclassname="active" to="/contact" className="contact-link">
+                    <FontAwesomeIcon icon={faEnvelope} color="#4d4d4d" />
                 </NavLink>
+
+                
+
+                {/* <NavLink exact='true' activeclassname="active" to="/dashboard" className="dashboard-link">
+                    <FontAwesomeIcon icon={faSignIn} color="#4d4d4d" />
+                </NavLink> */}
 
 
             </nav>

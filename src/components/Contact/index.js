@@ -13,6 +13,9 @@ let DefaultIcon = L.icon({
     shadowUrl: iconShadow
 });
 
+function comingsoon () {
+    alert ("Coming Soon")
+}
 const Contact = () => {
     return ( 
         <>
@@ -33,7 +36,7 @@ const Contact = () => {
                                 </div>
 
                                 <div className="form-row">
-                                    <input type="submit" className="form-submit" value="Submit"></input>
+                                    <input type="submit" className="form-submit" value="Submit" onClick={comingsoon}></input>
                                 </div>
 
                             </form>
@@ -80,7 +83,7 @@ const Contact = () => {
 
 
             
-            <Loader type="line-scale" color="#fed002" width={500} />    
+            {/* <Loader type="line-scale" color="#fed002" width={500} />     */}
         </>
         
         
