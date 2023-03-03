@@ -1,7 +1,6 @@
 import './index.scss';
 import Loader from'react-loaders';
 import AnimatedLetters from '../AnimatedLetters';
-import Carousel from './carousel';
 import {Link, NavLink} from 'react-router-dom';
 
 
@@ -30,9 +29,7 @@ const Home = () => {
 
                 </div> 
 
-                {/* <div className="caroBox">
-                    <Carousel />
-                </div> */}
+            
 
             </div> 
         </div>

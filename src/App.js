@@ -6,8 +6,7 @@ import Home from "./components/Home";
 import About from "./components/About";
 import Contact from "./components/Contact";
 import Portfolio from "./components/Portfolio";
-import Dashboard from './components/Dashboard';
-
+import TodoList from "./components/TodoList";
 
 
 function App() {
@@ -19,7 +18,7 @@ function App() {
         <Route path="/about" element={<About />}/>
         <Route path="/portfolio" element={<Portfolio />}/>
         <Route path="/contact"element={<Contact />}/>
-        {/* <Route path="/dashboard" element={<Dashboard />}/> */}
+        <Route path="/todoList" element={<TodoList />}/>
         
 
       </Route>
