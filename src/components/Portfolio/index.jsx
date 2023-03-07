@@ -76,8 +76,48 @@ const Portfolio = () => {
 
             <h1>  <AnimatedLetters strArray={"Portfolio".split('')} startIdx={1} /> </h1>
 
-            <div>
-            <a href="/loginPage.html">Link to my HTML file</a>
+            <div className="display">
+
+                <ul>
+
+                <li className="htmlCss-left parts">
+
+                    <a href="/loginPage.html" target="_blank" ></a>
+
+                 </li>
+
+                 <li className="htmlCss-right parts">
+
+                    {/* <a href="/loginPage.html" target="_blank">Link to my HTML file</a> */}
+
+                 </li>
+
+                 <li className="bootstrap parts">
+
+                    {/* <a href="/loginPage.html" target="_blank">Link to my HTML file</a> */}
+
+                 </li>
+
+                 <li className="js-DOM parts">
+
+                    {/* <a href="/loginPage.html" target="_blank">Link to my HTML file</a> */}
+
+                 </li>
+
+                 <li className="js-APIs parts">
+
+                    {/* <a href="/loginPage.html" target="_blank">Link to my HTML file</a> */}
+
+                 </li>
+
+                 <li className="js parts">
+
+                    {/* <a href="/loginPage.html" target="_blank">Link to my HTML file</a> */}
+
+                 </li>
+                </ul>
+
+
 
             </div>
            

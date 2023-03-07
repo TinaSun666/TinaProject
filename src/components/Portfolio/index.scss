@@ -25,40 +25,125 @@
     }
 }
 
-.caroBox {
-    width: 100%;
-    height: 100%;
-    padding: 0;
-    opacity: 0;
-    animation: fadeIn 1s 4s forwards;
-    position: relative;
+.display {
+    width: 800px;
+    height: 390px;
+    background: url('../../assets/images/cloud.jpg');
+    // background-color: rgba(255, 255, 255, 0.5);
+    background-size: cover;
+    margin: 50px auto;
+    li {
+        background-color: rgba(255, 255, 255, 0.1);
+        list-style: none;
+        float: left;
+        border: 1px solid black;
+        width: 400px;
+        height: 130px;
+        line-height: 130px;
+        margin: 0 auto;
+        text-align: center;
+        font-size: 19px;
+    }
+    a {
+        text-decoration: none;
+        text-align: center;
+    }
 }
 
-.caroImage {
-    width: 100%;
-    height: 100%;
+.parts:hover {
+    background-color: rgb(#4B1248, 0.7);
 }
 
-.caro {
-    position: absolute;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    margin: auto;
-    width: 300px;
-    height: 400px;
-    object-fit: cover;
+.htmlCss-left::before {
+    content: "HTML & CSS";
+    color: #4B1248;
 }
 
-.caro-left {
-    transform: translateX(-125%) scale(0.8);
-    transition: 500ms;
-    opacity: 0.3;
+.htmlCss-left:hover::before {
+    content: "HTML & CSS - Login Page";
+    color: white;
 }
 
-.caro-right {
-    transform: translateX(125%) scale(0.8);
-    transition: 500ms;
-    opacity: 0.3;
+.htmlCss-right::before {
+    content: "HTML & CSS";
+    color: #4B1248;
 }
+
+.htmlCss-right:hover::before {
+    content: "HTML & CSS - Landing Page";
+    color: white;
+}
+
+.bootstrap::before {
+    content: "bootstrap";
+    color: #4B1248;
+}
+
+.bootstrap:hover::before {
+    color: white;
+}
+
+.js-DOM::before {
+    content: "JavaScript";
+    color: #4B1248;
+}
+
+.js-DOM:hover::before {
+    content: "JavaScript - DOM";
+    color: white;
+}
+
+.js-APIs::before {
+    content: "JavaScript";
+    color: #4B1248;
+}
+
+.js-APIs:hover::before {
+    content: "JavaScript - APIs";
+    color: white;
+}
+
+.js::before {
+    content: "JavaScript";
+    color: #4B1248;
+}
+
+.js:hover::before {
+    content: "JavaScript- ";
+    color: white;
+}
+
+//carocss
+// .caroBox {
+//     width: 100%;
+//     height: 100%;
+//     padding: 0;
+//     opacity: 0;
+//     animation: fadeIn 1s 4s forwards;
+//     position: relative;
+// }
+// .caroImage {
+//     width: 100%;
+//     height: 100%;
+// }
+// .caro {
+//     position: absolute;
+//     top: 0;
+//     left: 0;
+//     bottom: 0;
+//     right: 0;
+//     margin: auto;
+//     width: 300px;
+//     height: 400px;
+//     object-fit: cover;
+// }
+// .caro-left {
+//     transform: translateX(-125%) scale(0.8);
+//     transition: 500ms;
+//     opacity: 0.3;
+// }
+// .caro-right {
+//     transform: translateX(125%) scale(0.8);
+//     transition: 500ms;
+//     opacity: 0.3;
+// }
