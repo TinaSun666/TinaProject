@@ -6,6 +6,13 @@ import {dbRef} from '../../firebase';
 import { getDocs} from 'firebase/firestore';
 import Carousel from './carousel';
 
+
+
+
+
+
+
+
 //previous portfolio coding
 // const Portfolio = () => {
 
@@ -63,14 +70,25 @@ import Carousel from './carousel';
 
 const Portfolio = () => {
 
+      
     return ( 
         <div className="backg">
+
             <h1>  <AnimatedLetters strArray={"Portfolio".split('')} startIdx={1} /> </h1>
+
+            <div>
+            <a href="/loginPage.html">Link to my HTML file</a>
+
+            </div>
+           
+            
  
-            <div className="caroBox">
+            {/* <div className="caroBox">
                 <Carousel />
-            </div> 
+            </div>  */}
         </div>
+
+        
 
         
 
