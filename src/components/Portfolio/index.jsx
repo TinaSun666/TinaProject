@@ -80,11 +80,9 @@ const Portfolio = () => {
 
                 <ul>
 
-                <li className="htmlCss-left parts">
-
-                    <a href="/loginPage.html" target="_blank" ></a>
-
-                 </li>
+                <a href="/loginPage.html" target="_blank" > 
+                <li className="htmlCss-left parts" ></li>
+                </a>
 
                  <li className="htmlCss-right parts">
 

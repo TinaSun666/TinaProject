@@ -3,7 +3,7 @@ import Tina from '../../assets/images/tina.JPG';
 import {Link, NavLink} from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faHome,faUser, faEnvelope, faImage, faSign, faSignIn } from '@fortawesome/free-solid-svg-icons';
-import { faGithub, faInstagram, faLinkedin,faTwitter } from '@fortawesome/free-brands-svg-icons';
+import { faGithub, faLinkedin} from '@fortawesome/free-brands-svg-icons';
 import { toBeInvalid } from '@testing-library/jest-dom/dist/matchers';
 
 const Sidebar=()=>{
@@ -41,12 +41,12 @@ const Sidebar=()=>{
             </nav>
             <ul>
                 <li>
-                    <a target="_blank" rel="noreferrer" href="http://linkedin.com">
+                    <a target="_blank" rel="noreferrer" href="http://linkedin.com/in/tiantian-sun-76610325a">
                         <FontAwesomeIcon icon={faLinkedin} color="#4d4d4d" />
                     </a>
                 </li>
 
-                <li>
+                {/* <li>
                     <a target="_blank" rel="noreferrer" href="http://twitter.com">
                         <FontAwesomeIcon icon={faTwitter} color="#4d4d4d" />
                     </a>
@@ -56,13 +56,15 @@ const Sidebar=()=>{
                     <a target="_blank" rel="noreferrer" href="http://instagram.com">
                         <FontAwesomeIcon icon={faInstagram} color="#4d4d4d" />
                     </a>
-                </li>
+                </li> */}
 
                 <li>
-                    <a target="_blank" rel="noreferrer" href="http://github.com">
+                    <a target="_blank" rel="noreferrer" href="https://github.com/TinaSun666/TinaProject.git">
                         <FontAwesomeIcon icon={faGithub} color="#4d4d4d" />
                     </a>
                 </li>
+
+               
             </ul>
         </div>
 

@@ -53,7 +53,7 @@ const Contact = () => {
                                 <br/>
                                 VIC, Australia
                                 <br/>
-                                <span>tina0426******@gmail.com</span>
+                                <span>tina0426599117@gmail.com</span>
                             </p>
 
                         </div>

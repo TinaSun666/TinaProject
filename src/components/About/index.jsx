@@ -8,10 +8,13 @@ const About = () => {
     return (
     <div className="back">
         <h1 className="title"> 
-            <AnimatedLetters strArray={"About Me".split('')} startIdx={1} />
-               
+            <AnimatedLetters strArray={"About Me".split('')} startIdx={1} />   
         </h1>
-        
+
+        <div>
+            
+        </div>
+    
     </div> 
     );
 }

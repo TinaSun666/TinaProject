@@ -32,11 +32,13 @@
     // background-color: rgba(255, 255, 255, 0.5);
     background-size: cover;
     margin: 50px auto;
+    opacity: 0;
+    animation: fadeIn 3s 2s forwards;
     li {
         background-color: rgba(255, 255, 255, 0.1);
         list-style: none;
         float: left;
-        border: 1px solid black;
+        border: 1px solid white;
         width: 400px;
         height: 130px;
         line-height: 130px;
@@ -75,11 +77,12 @@
 }
 
 .bootstrap::before {
-    content: "bootstrap";
+    content: "Bootstrap";
     color: #4B1248;
 }
 
 .bootstrap:hover::before {
+    content: "Bootstrap";
     color: white;
 }
 
