@@ -70,15 +70,16 @@ import Carousel from './carousel';
 
 const Portfolio = () => {
 
-      
+    
     return ( 
         <div className="backg">
 
             <h1>  <AnimatedLetters strArray={"Portfolio".split('')} startIdx={1} /> </h1>
 
-            <div className="display">
+            <div className="display" >
+                <div className="layerOne">
 
-                <ul>
+                    <ul>
 
                 <a href="/loginPage.html" target="_blank" > 
                 <li className="htmlCss-left parts" ></li>
@@ -113,7 +114,9 @@ const Portfolio = () => {
                     {/* <a href="/loginPage.html" target="_blank">Link to my HTML file</a> */}
 
                  </li>
-                </ul>
+                    </ul>
+
+                </div>
 
 
 
