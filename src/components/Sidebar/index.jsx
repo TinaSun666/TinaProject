@@ -16,7 +16,7 @@ const Sidebar=()=>{
             <nav>
                 {/* navlink is a tag */}
                 <NavLink exact='true' activeclassname="active" to="/">
-                    <FontAwesomeIcon icon={faHome} color="#4d4d4d" />
+                    <FontAwesomeIcon icon={faHome} color="#4d4d4d" /> 
                 </NavLink>
 
                 <NavLink exact='true' activeclassname="active" to="/about" className="about-link">

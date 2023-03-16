@@ -78,17 +78,17 @@
 }
 
 .htmlCss-right:hover::before {
-    content: "Landing Page";
+    content: "Shopping Page";
     color: #F0C27B;
     font-size: 28px;
 }
 
 .bootstrap::before {
-    content: "Bootstrap";
+    content: "HTML, CSS & JS";
 }
 
 .bootstrap:hover::before {
-    content: "shopping cart";
+    content: "Cart Page";
     color: #F0C27B;
     font-size: 28px;
 }

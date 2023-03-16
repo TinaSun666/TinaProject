@@ -1,0 +1,157 @@
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    
+    body {
+        background-color: #f0f0f0;
+    }
+    
+    .back {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 500px;
+        width: 800px;
+        justify-content: center;
+        margin: 0 auto;
+        background-color: white;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin: auto;
+    }
+    
+    .left {
+        width: 450px;
+        height: 500px;
+        text-align: center;
+    }
+    
+    h1 {
+        font-size: 35px;
+        font-family: 'Shantell Sans', cursive;
+        margin-top: 50px;
+    }
+    
+    p {
+        font-size: 10px;
+        color: black;
+    }
+    
+    .google {
+        margin: 10px 117px;
+        margin-bottom: 30px;
+        position: relative;
+        width: 205px;
+        height: 30px;
+        border: 1px solid black;
+        border-radius: 5px;
+    }
+    
+    .google p:hover {
+        text-decoration: underline;
+    }
+    
+    .google p {
+        position: absolute;
+        top: 6px;
+        left: 65px;
+    }
+    
+    .googleicon {
+        display: inline-block;
+        position: absolute;
+        top: 4px;
+        left: 35px;
+    }
+    
+    .google image,
+    p {
+        display: inline-block;
+        vertical-align: middle;
+    }
+    
+    .login {
+        margin-top: 15px;
+    }
+    
+    .login input {
+        padding-top: 15px;
+        margin-bottom: 5px;
+        width: 200px;
+        border: none;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+    }
+    
+    .login p a {
+        font-size: 8px;
+    }
+    
+    .forgotpwd {
+        font-size: 8px;
+    }
+    
+    #remember {
+        width: 10px;
+        padding-top: 3px;
+    }
+    
+    .remember {
+        padding-right: 30px;
+    }
+    
+    .forgotpwd {
+        font-weight: 900;
+    }
+    
+    .forgotpwd:hover {
+        text-decoration: underline;
+    }
+    
+    .loginBtn {
+        width: 207px;
+        height: 32px;
+        margin: 25px 10px;
+        border: 1px solid black;
+        border-radius: 5px;
+    }
+    
+    .loginBtn:hover {
+        background-color: black;
+        color: white;
+    }
+    
+    .signup:hover {
+        text-decoration: underline;
+    }
+    
+    .signup {
+        color: black;
+        font-family: 'Rampart One', cursive;
+    }
+    
+    .right {
+        width: 350px;
+        height: 500px;
+        background-image: url('./sea.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-top-left-radius: 70px;
+        border-bottom-left-radius: 70px;
+        position: relative;
+    }
+    
+    .airplane {
+        width: 50px;
+        height: 50px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        animation: circle 2s 1s linear infinite;
+    }

@@ -81,39 +81,34 @@ const Portfolio = () => {
 
                     <ul>
 
-                <a href="/loginPage.html" target="_blank" > 
-                <li className="htmlCss-left parts" ></li>
-                </a>
+                        <a href="/mug-login.html" target="_blank" ><li className="htmlCss-left parts" ></li></a> 
+                        <a href="/mug-web.html" target="_blank"><li className="htmlCss-right parts"></li></a> 
 
-                 <li className="htmlCss-right parts">
+                        
 
-                    {/* <a href="/loginPage.html" target="_blank">Link to my HTML file</a> */}
+                        <li className="bootstrap parts">
 
-                 </li>
+                            {/* <a href="/loginPage.html" target="_blank">Link to my HTML file</a> */}
 
-                 <li className="bootstrap parts">
+                        </li>
 
-                    {/* <a href="/loginPage.html" target="_blank">Link to my HTML file</a> */}
+                        <li className="js-DOM parts">
 
-                 </li>
+                            {/* <a href="/loginPage.html" target="_blank">Link to my HTML file</a> */}
 
-                 <li className="js-DOM parts">
+                        </li>
 
-                    {/* <a href="/loginPage.html" target="_blank">Link to my HTML file</a> */}
+                        <li className="js-APIs parts">
 
-                 </li>
+                            {/* <a href="/loginPage.html" target="_blank">Link to my HTML file</a> */}
 
-                 <li className="js-APIs parts">
+                        </li>
 
-                    {/* <a href="/loginPage.html" target="_blank">Link to my HTML file</a> */}
+                        <li className="js parts">
 
-                 </li>
+                            {/* <a href="/loginPage.html" target="_blank">Link to my HTML file</a> */}
 
-                 <li className="js parts">
-
-                    {/* <a href="/loginPage.html" target="_blank">Link to my HTML file</a> */}
-
-                 </li>
+                        </li>
                     </ul>
 
                 </div>
