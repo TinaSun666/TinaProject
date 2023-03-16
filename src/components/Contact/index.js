@@ -21,7 +21,7 @@ const Contact = () => {
         <>
 
             <div className="contact-page">
-                <div className="container">
+                <div className="con-container">
                     <div className="left-side">
                         <h1> <AnimatedLetters strArray={"Contact Me".split('')} startIdx={1} /></h1>
                         <div className="contact-form">
