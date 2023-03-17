@@ -94,21 +94,21 @@
 }
 
 .js-DOM::before {
-    content: "JavaScript";
+    content: "JavaScript - DOM";
 }
 
 .js-DOM:hover::before {
-    content: "JavaScript - DOM";
+    content: "Todo List";
     color: #F0C27B;
     font-size: 28px;
 }
 
 .js-APIs::before {
-    content: "JavaScript";
+    content: "JavaScript - APIs";
 }
 
 .js-APIs:hover::before {
-    content: "JavaScript - APIs";
+    content: "Get Weather Info";
     color: #F0C27B;
     font-size: 28px;
 }

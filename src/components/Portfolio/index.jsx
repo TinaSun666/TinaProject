@@ -13,6 +13,8 @@ import Carousel from './carousel';
 
 
 
+
+
 //previous portfolio coding
 // const Portfolio = () => {
 
@@ -92,11 +94,12 @@ const Portfolio = () => {
 
                         </li>
 
-                        <li className="js-DOM parts">
+                        <a href="#" target="_blank"> 
 
-                            {/* <a href="/loginPage.html" target="_blank">Link to my HTML file</a> */}
-
-                        </li>
+                            <li className="js-DOM parts">
+                                
+                            </li>
+                        </a>
 
                         <li className="js-APIs parts">
 
