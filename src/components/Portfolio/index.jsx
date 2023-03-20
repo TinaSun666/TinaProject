@@ -88,18 +88,12 @@ const Portfolio = () => {
 
                         
 
-                        <li className="bootstrap parts">
+                        {/* <a href="/weatherApp.html" target="_blank"><li className="bootstrap parts"></li></a> */}
 
-                            {/* <a href="/loginPage.html" target="_blank">Link to my HTML file</a> */}
+                        <a href="/weatherApp.html" target="_blank"><li className="js-DOM parts"></li></a>
 
-                        </li>
-
-                        <a href="#" target="_blank"> 
-
-                            <li className="js-DOM parts">
-                                
-                            </li>
-                        </a>
+                            
+                       
 
                         <li className="js-APIs parts">
 
