@@ -82,14 +82,13 @@ const Portfolio = () => {
                 <div className="layerOne">
 
                     <ul>
-
+                        {/* logininpage */}
                         <a href="/mug-login.html" target="_blank" ><li className="htmlCss-left parts" ></li></a> 
+                        {/* mugweb */}
                         <a href="/mug-web.html" target="_blank"><li className="htmlCss-right parts"></li></a> 
-
-                        
-
-                        {/* <a href="/weatherApp.html" target="_blank"><li className="bootstrap parts"></li></a> */}
-
+                        {/* todoList */}
+                        <a href="#" target="_blank"><li className="todoList parts"></li></a>
+                        {/* weatherApp */}
                         <a href="/weatherApp.html" target="_blank"><li className="js-DOM parts"></li></a>
 
                             
@@ -101,7 +100,7 @@ const Portfolio = () => {
 
                         </li>
 
-                        <li className="js parts">
+                        <li className="reactA parts">
 
                             {/* <a href="/loginPage.html" target="_blank">Link to my HTML file</a> */}
 

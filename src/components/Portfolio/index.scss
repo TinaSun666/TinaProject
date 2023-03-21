@@ -83,42 +83,42 @@
     font-size: 28px;
 }
 
-.bootstrap::before {
+.todoList::before {
     content: "HTML, CSS & JS";
 }
 
-.bootstrap:hover::before {
+.todoList:hover::before {
     content: "Cart Page";
     color: #F0C27B;
     font-size: 28px;
 }
 
 .js-DOM::before {
-    content: "JavaScript - DOM";
-}
-
-.js-DOM:hover::before {
-    content: "Todo List";
-    color: #F0C27B;
-    font-size: 28px;
-}
-
-.js-APIs::before {
     content: "JavaScript - DOM & APIs";
 }
 
-.js-APIs:hover::before {
+.js-DOM:hover::before {
     content: "Weather App";
     color: #F0C27B;
     font-size: 28px;
 }
 
-.js::before {
-    content: "JavaScript";
+.js-APIs::before {
+    content: "JavaScript ?";
 }
 
-.js:hover::before {
-    content: "JavaScript- ";
+.js-APIs:hover::before {
+    content: "??";
+    color: #F0C27B;
+    font-size: 28px;
+}
+
+.reactA::before {
+    content: "React-";
+}
+
+.reactA:hover::before {
+    content: "React- ";
     color: #F0C27B;
     font-size: 28px;
 }
