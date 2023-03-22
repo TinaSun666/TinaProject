@@ -12,7 +12,7 @@ const About = () => {
     return (
     <div className="back">
         <h1 className="title"> 
-            <AnimatedLetters strArray={"About Me".split('')} startIdx={1} />   
+            About Me
         </h1>
 
         <div className="profile">

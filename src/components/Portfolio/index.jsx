@@ -76,29 +76,29 @@ const Portfolio = () => {
     return ( 
         <div className="backg">
 
-            <h1>  <AnimatedLetters strArray={"Portfolio".split('')} startIdx={1} /> </h1>
+            <h1> Portfolio</h1>
 
             <div className="display" >
                 <div className="layerOne">
 
                     <ul>
-                        {/* logininpage */}
+                        {/* mug logininpage */}
                         <a href="/mug-login.html" target="_blank" ><li className="htmlCss-left parts" ></li></a> 
                         {/* mugweb */}
                         <a href="/mug-web.html" target="_blank"><li className="htmlCss-right parts"></li></a> 
-                        {/* todoList */}
-                        <a href="#" target="_blank"><li className="todoList parts"></li></a>
-                        {/* weatherApp */}
+                        {/* mug cart page */}
+                        <a href="/mug-cart.html" target="_blank"><li className="js-cart parts"></li></a>
+                        {/* weatherApp-dom APIs */}
                         <a href="/weatherApp.html" target="_blank"><li className="js-DOM parts"></li></a>
 
-                            
+                        {/* firebase  */}
+                        <a href="#" target="_blank"><li className="firebase parts"></li></a> 
+
+                        {/* react-todo list */}
+
+                        <a href="#" target="_blank"><li className="react-todolist parts"></li></a> 
+                        
                        
-
-                        <li className="js-APIs parts">
-
-                            {/* <a href="/loginPage.html" target="_blank">Link to my HTML file</a> */}
-
-                        </li>
 
                         <li className="reactA parts">
 

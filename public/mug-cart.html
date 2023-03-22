@@ -70,9 +70,10 @@
                         <img src="./products-mugs.webp">
                     </td>
                     <td>Arts Mug</td>
-                    <td>$10.00</td>
-                    <td><input type="number" value="1"></td>
-                    <td>$10.00</td>
+                    <td>$<span class="item-price">10</span></td>
+                    <td><button class="plusBtn">+</button><input class="amount" type="amount" value="1" min="1">
+                        <button class="minusBtn">-</button></td>
+                    <td>$<span class="item-total">10</span></td>
                 </tr>
 
                 <tr>
@@ -85,9 +86,10 @@
                         <img src="./products-mugs.webp">
                     </td>
                     <td>Arts Mug</td>
-                    <td>$10</td>
-                    <td><input type="number" value="1"></td>
-                    <td>$10</td>
+                    <td>$<span class="item-price">10</span></td>
+                    <td><button class="plusBtn">+</button><input class="amount" type="amount" value="1" min="1">
+                        <button class="minusBtn">-</button></td>
+                    <td>$<span class="item-total">10</span></td>
                 </tr>
 
                 <tr>
@@ -100,9 +102,10 @@
                         <img src="./products-mugs.webp">
                     </td>
                     <td>Arts Mug</td>
-                    <td>$10.00</td>
-                    <td><input type="number" value="1"></td>
-                    <td>$10</td>
+                    <td>$<span class="item-price">10</span></td>
+                    <td><button class="plusBtn">+</button><input class="amount" type="amount" value="1" min="1">
+                        <button class="minusBtn">-</button></td>
+                    <td>$<span class="item-total">10</span></td>
                 </tr>
             </tbody>
         </table>
@@ -124,19 +127,19 @@
             <table>
                 <tr>
                     <td>Cart Subtotals</td>
-                    <td>$ 30</td>
+                    <td>$<span class="item-total-price">30</span></td>
                 </tr>
 
                 <tr>
                     <td>Shipping
                     </td>
 
-                    <td>$ 10</td>
+                    <td>$10</td>
                 </tr>
 
                 <tr>
                     <td><strong>Total</strong></td>
-                    <td><strong>$ 40</strong></td>
+                    <td><strong>$<span id="total-price">40</span></strong></td>
 
                 </tr>
             </table>
@@ -204,6 +207,55 @@
 
 
     <script>
+        const plusBtns = document.querySelectorAll('.plusBtn');
+        const minusBtns = document.querySelectorAll('.minusBtn');
+        const totalPrice = document.querySelector('#total-price');
+        const itemTotalPrice = document.querySelector('.item-total-price');
+
+
+
+        plusBtns.forEach(btn => {
+            btn.addEventListener('click', () => {
+                const amountInput = btn.parentNode.querySelector('.amount');
+                const itemTotal = btn.parentNode.parentNode.querySelector('.item-total');
+
+                const itemPrice = document.querySelector('.item-price');
+                amountInput.value = parseInt(amountInput.value) + 1;
+
+                if (parseInt(amountInput.value) < 1) {
+                    amountInput.value = 1;
+                }
+                itemTotal.textContent = parseInt(amountInput.value) * parseInt(itemPrice.textContent);
+
+
+
+            });
+        });
+
+        minusBtns.forEach(btn => {
+            btn.addEventListener('click', () => {
+
+                const amountInput = btn.parentNode.querySelector('.amount');
+                const itemTotal = btn.parentNode.parentNode.querySelector('.item-total');
+                const itemPrice = document.querySelector('.item-price');
+
+                amountInput.value = parseInt(amountInput.value) - 1;
+                if (parseInt(amountInput.value) < 1) {
+                    amountInput.value = 1;
+                }
+                itemTotal.textContent = parseInt(amountInput.value) * parseInt(itemPrice.textContent);
+
+
+
+
+
+            });
+        });
+
+
+
+
+        totalPrice.textContent = parseInt(itemTotalPrice.textContent) + 10;
     </script>
 
 </body>

@@ -22,7 +22,19 @@ const Home = () => {
                     
                     
                     <NavLink exact='true' activeclassname="active" to="/about" className="about-link">
-                        <AnimatedLetters strArray={"Learn More".split('')} startIdx={30} />
+                        <AnimatedLetters strArray={"About Me".split('')} startIdx={20} />
+                    </NavLink>
+                    
+                    </a>
+
+                </div> 
+
+                <div className="portfolio">
+                    <a href=''>
+                    
+                    
+                    <NavLink exact='true' activeclassname="active" to="/portfolio" className="about-link">
+                        <AnimatedLetters strArray={"Portfolio ".split('')} startIdx={23} />
                     </NavLink>
                     
                     </a>
