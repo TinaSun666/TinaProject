@@ -3,8 +3,11 @@ import Loader from 'react-loaders';
 import AnimatedLetters from '../AnimatedLetters';
 import {useEffect, useState} from 'react';
 import {dbRef} from '../../firebase';
-import { getDocs} from 'firebase/firestore';
+import {getDocs} from 'firebase/firestore';
 import Carousel from './carousel';
+import {App} from "./blogApp/App";
+import { Router,Routes,Route } from 'react-router-dom';
+import ReactDOM from 'react-dom';
 
 
 
@@ -92,7 +95,14 @@ const Portfolio = () => {
                         <a href="/weatherApp.html" target="_blank"><li className="js-DOM parts"></li></a>
 
                         {/* firebase  */}
-                        <a href="#" target="_blank"><li className="firebase parts"></li></a> 
+                        <a href="#" target="_blank"><li className="firebase parts">
+
+                            {/* ? */}
+                            {/* <Route path="./blogApp/App.js" element={<App/>} /> */}
+                            {/* ? */}
+
+                            
+                            </li></a> 
 
                         {/* react-todo list */}
 
@@ -106,7 +116,6 @@ const Portfolio = () => {
 
                         </li>
                     </ul>
-
                 </div>
 
 
