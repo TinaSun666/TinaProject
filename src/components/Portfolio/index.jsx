@@ -94,27 +94,20 @@ const Portfolio = () => {
                         {/* weatherApp-dom APIs */}
                         <a href="/weatherApp.html" target="_blank"><li className="js-DOM parts"></li></a>
 
-                        {/* firebase  */}
-                        <a href="#" target="_blank"><li className="firebase parts">
+                        
+                         {/* <a href="#" target="_blank"><li className="firebase parts"></li></a>   */}
 
-                            {/* ? */}
-                            {/* <Route path="./blogApp/App.js" element={<App/>} /> */}
-                            {/* ? */}
+                       
 
-                            
-                            </li></a> 
-
-                        {/* react-todo list */}
-
-                        <a href="#" target="_blank"><li className="react-todolist parts"></li></a> 
+                        {/* <a href="#" target="_blank"><li className="react-todolist parts"></li></a>  */}
                         
                        
 
-                        <li className="reactA parts">
+                        {/* <li className="reactA parts">
 
-                            {/* <a href="/loginPage.html" target="_blank">Link to my HTML file</a> */}
+                            <a href="/loginPage.html" target="_blank">Link to my HTML file</a>
 
-                        </li>
+                        </li> */}
                     </ul>
                 </div>
 
